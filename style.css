@@ -1,10 +1,39 @@
-.Title {
-    color: red;
+
+body {
+    background-color: #dff4ff;
 }
 
-.SmallText {
-    color: blue;
+/* Add a black background color to the top navigation */
+.topnav {
+    background-color: #00a6ff;
+    overflow: hidden;
+    margin-bottom: 20px;
 }
+  
+/* Style the links inside the navigation bar */
+.topnav a {
+    float: left;
+    color: #000000;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+}
+  
+/* Change the color of links on hover */
+.topnav a:hover {
+    background-color: #0097e9;
+    color: black;
+}
+  
+/* Add a color to the active/current link */
+.topnav a.active {
+    border: 2px solid black;
+    background-color: #b1b1b1;
+    color: black;
+}
+
+
 
 .EtsyListing {
     display:inline-block;
