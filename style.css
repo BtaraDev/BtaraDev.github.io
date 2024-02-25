@@ -1,0 +1,29 @@
+.Title {
+    color: red;
+}
+
+.SmallText {
+    color: blue;
+}
+
+.EtsyListing {
+    display:inline-block;
+    border: 2px solid black;
+    border-radius: 25px;
+    background: #b1b1b1;
+    padding: 20px;
+    width: 234px;
+    height: 183;
+    text-align:center;
+    margin-bottom: 10px;
+    margin-right: 10px;
+}
+
+.ListingButton {
+    border-radius: 10px;
+    background: #00a6ff;
+}
+
+.ListingImage {
+    border: 2px solid black;
+}
